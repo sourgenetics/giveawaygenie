@@ -1,0 +1,31 @@
+export default function Page() {
+  return (
+    <div style={{ background: "#0a0a0a", color: "white", minHeight: "100vh", padding: 40 }}>
+      <h1 style={{ fontSize: 48, marginBottom: 20 }}>
+        GiveawayGenie
+      </h1>
+      <p style={{ fontSize: 18, color: "#aaa", maxWidth: 600 }}>
+        Luxury UK prize competitions for cars, watches and property.
+      </p>
+
+      <div style={{ marginTop: 40 }}>
+        <h2>Live Competitions</h2>
+        <ul>
+          <li>Lamborghini Huracán — £4.99</li>
+          <li>Rolex Submariner — £2.99</li>
+          <li>£500,000 Dream Home — £9.99</li>
+        </ul>
+      </div>
+
+      <div style={{ marginTop: 40 }}>
+        <h2>Winners & Proof</h2>
+        <p>James W. (Manchester) — Lamborghini Huracán</p>
+        <p>Sarah L. (London) — Rolex Submariner</p>
+      </div>
+
+      <div style={{ marginTop: 40, color: "#777", fontSize: 14 }}>
+        © 2026 GiveawayGenie Ltd — UK | 18+ | Play Responsibly
+      </div>
+    </div>
+  );
+}
